@@ -8,7 +8,7 @@ import { VillaNameAndTypeComponent } from './villa-name-and-type/villa-name-and-
 @NgModule({
   declarations: [
     AppComponent,
-    VillaNameAndTypeComponent
+    VillaNameAndTypeComponent,
   ],
   imports: [
     BrowserModule,

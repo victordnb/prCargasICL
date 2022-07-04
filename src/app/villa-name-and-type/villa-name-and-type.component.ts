@@ -7,9 +7,18 @@ import { Component, OnInit } from '@angular/core';
 })
 export class VillaNameAndTypeComponent implements OnInit {
 
+  name : string = "";
+  type : string = "";
+
   constructor() { }
 
   ngOnInit(): void {
+    this.name = "Name of Villa";
+    this.type = "unique family";
+    
+    console.log("Name: " + this.name);
+    console.log("Type: " + this.type);
   }
+
 
 }
